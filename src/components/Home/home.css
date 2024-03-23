@@ -1,0 +1,69 @@
+#section {
+    height: calc(100vh - 4rem);
+    width: 100vw;
+    max-width: 80rem;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+}
+
+.photo {
+    position: absolute;
+    top: -4rem;
+    right: 5vw;
+    z-index: -1;
+    object-fit: cover;
+    height: 100vh;
+}
+
+.homecomponent {
+    height: 100vh;
+    width: 100vw;
+    padding: 2rem;
+    font-size: 3rem;
+    font-weight: 700;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.hello {
+    font-size: 1.5rem;
+    font-weight: 100;
+}
+.name{
+    color: yellow;
+}
+.positon{
+    font-size: 2rem;
+    font-weight: 100;
+}
+.btn{
+    height: 2.5rem;
+    width: 6rem;
+    background-color: yellow;
+    border: none;
+    cursor: pointer;
+    border-radius: 0.5rem;
+}
+@media screen and (max-width:840px) {
+    .photo{
+        right: -10vw;
+        opacity: 20%;
+    }
+    .hello {
+        font-size: 4vw;
+    }
+    .name{
+        font-size: 10vw;
+    }
+    .positon{
+        font-size: 6vw;
+    }
+    
+}
+@media screen and (max-width:480px) {
+    .photo{
+        right: -20vw;
+    }
+}

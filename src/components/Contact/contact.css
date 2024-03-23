@@ -1,0 +1,69 @@
+#contactPage {
+    min-height: calc(100vh -4rem);
+    width: 100vw;
+    max-width: 60rem;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.skillsItem{
+    margin: 1rem 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+.skillsItems{
+    width: 23%;
+    min-width: 9rem;
+    margin: auto;
+    padding: 0.25rem;
+}
+#skills{
+    padding: 2rem;
+}
+.skillss{
+    /* text-align: left; */
+    margin: 0.5rem;
+}
+
+
+.contactform{
+margin: 1rem auto;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+width: 90vw;
+max-width: 60rem;
+/* background-color: aqua; */
+}
+.uname,.email,.msg{
+    width: 100%;
+    max-width: 40rem;
+    margin: 0.5rem;
+    padding: 0.5rem 1rem;
+    color: white;
+    border: none;
+    border-radius: 0.5rem;
+    background: rgb(40, 40, 40);
+}
+.submitbtn{
+    border: none;
+    background: white;
+    border-radius: 0.5rem;
+    margin: 2rem;
+    padding: 0.75rem 3.5rem;
+    cursor: pointer;
+}
+.links{
+    display: flex;
+    flex-wrap: wrap;
+}
+link{
+    object-fit: cover;
+    height: 5rem;
+    width: 5rem;
+    margin: 0 0.75rem;
+}
