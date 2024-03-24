@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/Portfolio/static/css/main.59999203.css",
+    "main.js": "/Portfolio/static/js/main.bcf97f4a.js",
+    "static/media/bg.png": "/Portfolio/static/media/bg.b9bf550e629b05323678.png",
+    "static/media/insta.png": "/Portfolio/static/media/insta.77c5b51fbae8f786ce59.png",
+    "static/media/camera.png": "/Portfolio/static/media/camera.a9eb418a2bcf174491b2.png",
+    "static/media/hospital.png": "/Portfolio/static/media/hospital.4da6ddfe8ac057e61acb.png",
+    "static/media/twiter.png": "/Portfolio/static/media/twiter.9e62b29e1bd360b398af.png",
+    "static/media/PROFILE.jpg": "/Portfolio/static/media/PROFILE.8cc0a82b2b85baff3f1c.jpg",
+    "static/media/linkedin.png": "/Portfolio/static/media/linkedin.5526f44d2ad6cae6d261.png",
+    "static/media/facebook.png": "/Portfolio/static/media/facebook.d75f5cdb75dbf38f58e5.png",
+    "static/media/logo.jpg": "/Portfolio/static/media/logo.5289c6b5ae4aa601bb8e.jpg",
+    "static/media/flight.png": "/Portfolio/static/media/flight.83fa141a5d484f879f71.png",
+    "index.html": "/Portfolio/index.html",
+    "static/media/menu.webp": "/Portfolio/static/media/menu.53842d1f32f0aff215b1.webp",
+    "main.59999203.css.map": "/Portfolio/static/css/main.59999203.css.map",
+    "main.bcf97f4a.js.map": "/Portfolio/static/js/main.bcf97f4a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.59999203.css",
+    "static/js/main.bcf97f4a.js"
+  ]
+}
