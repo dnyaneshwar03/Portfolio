@@ -1,17 +1,18 @@
 import React from 'react';
 import './exprience.css';
+import '../Animation/animation.js';
 
 const Exprience = () => {
     return (
         <div class="container" id="Exprience">
-            <div className='AboutMee'>
-                <span className="heading"> Education and Experience </span>
+            <div className='AboutMee' data-aos="zoom-in">
+                <span className="heading" > Education and Experience </span>
                 <hr className='hrr' />
             </div>
 
 
             <main class="row">
-                <section class="col">
+                <section class="col" data-aos="fade-right">
 
                     <header class="title">
                         <h2>EDUCATION</h2>
@@ -46,7 +47,7 @@ const Exprience = () => {
                     </div>
                 </section>
 
-                <section class="col">
+                <section class="col" data-aos="fade-left">
 
                     <header class="title">
                         <h2>EXPERIENCE</h2>

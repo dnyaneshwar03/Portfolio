@@ -3,18 +3,19 @@ import './work.css';
 import img1 from '../../assets/flight.png';
 import img2 from '../../assets/camera.png';
 import img3 from '../../assets/hospital.png';
+import '../Animation/animation.js';
 
 const Work = () => {
     return (
         <section id="work">
-            <span className="heading"> Projects </span>
-            <hr className="hr" />
-            <span className="info">These are the projects I've worked on during college and internships. 
+            <span className="heading" data-aos="zoom-in"> Projects </span>
+            <hr className="hr" data-aos="zoom-in" />
+            <span className="info" data-aos="zoom-in">These are the projects I've worked on during college and internships. 
             They have been instrumental in enhancing my skills and technical knowledge
             </span>
 
             <div className="content">
-                <div className="subcontent">
+                <div className="subcontent" data-aos="fade-up">
                     <img src={img1} alt="sample" className='imgs' />
                     <div className="texts">
                         <h3> Flight Booking Management System</h3>
@@ -24,7 +25,7 @@ const Work = () => {
                         </p>
                     </div>
                 </div>
-                <div className="subcontent">
+                <div className="subcontent" data-aos="fade-up">
                     <img src={img2} alt="sample" className='imgs' />
                     <div className="texts">
                         <h3> Photolab Management System</h3>
@@ -34,7 +35,7 @@ const Work = () => {
                         </p>
                     </div>
                 </div>
-                <div className="subcontent">
+                <div className="subcontent" data-aos="fade-up">
                     <img src={img3} alt="sample" className='imgs' />
                     <div className="texts">
                         <h3>Hospital Management System</h3>
